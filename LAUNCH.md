@@ -125,9 +125,11 @@ promise about HOW the shop works. The owner must agree to stand behind them:
   project (same project as Evo-Solutions, Street Soundz and the platform),
   deployed from github.com/adub7k/enchantment-auto-details-website `main`.
   Every push redeploys.
-- Env set on the service: `VITE_SHOPFLOW_API_URL`,
+- Public URL until a domain is bought:
+  https://enchantment-auto-details-website-production.up.railway.app
+- Env set on the service (2026-09-14): `VITE_SHOPFLOW_API_URL`,
   `VITE_SHOPFLOW_SHOP_SLUG=enchantment-auto-details`, `VITE_SITE_URL`
-  (placeholder railway.app URL — set to the real domain when it exists),
+  (the railway.app URL above — set to the real domain when it exists),
   `NITRO_PRESET=node-server`. Analytics IDs not set. All are baked in at
   BUILD time — a variable change triggers a rebuild automatically.
 - Custom domain: `railway domain <domain>` on this service, then point the
